@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Solar System with Three.js</title>
+  <style>
+    body {
+      margin: 0;
+      overflow: hidden;
+      background: black;
+      color: white;
+      font-family: sans-serif;
+    }
+
+    canvas {
+      display: block;
+    }
+
+    #controls {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background: rgba(0, 0, 0, 0.5);
+      padding: 12px;
+      border-radius: 8px;
+      z-index: 10;
+    }
+
+    #controls h3 {
+      margin-top: 0;
+      font-size: 16px;
+    }
+
+    #controls label {
+      display: block;
+      margin: 8px 0 4px;
+    }
+
+    #controls input[type="range"] {
+      width: 120px;
+    }
+
+    #controls span {
+      margin-left: 6px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Speed Control Panel -->
+  <div id="controls">
+    <h3>Planet Speed Control</h3>
+    <div id="sliders"></div>
+  </div>
+
+  <!-- Three.js CDN -->
+  <script src="https://cdn.jsdelivr.net/npm/three@0.160.0/build/three.min.js"></script>
+  
+  <!-- Your main logic -->
+  <script src="main.js"></script>
+</body>
+</html>
