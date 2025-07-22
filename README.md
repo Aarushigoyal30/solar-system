@@ -1,2 +1,11 @@
-# solar-system
-Developed an interactive 3D solar system model using Three.js with real-time orbital animation of all 8 planets around the Sun. Implemented camera controls and a custom control panel for users to adjust each planet’s orbital speed dynamically using sliders.Tech Stack: JavaScript, Three.js, HTML
+# Solar System Project
+
+## About
+This is a simple 3D solar system made using HTML, JavaScript, and Three.js.  
+It shows the planets moving around the sun, and you can change their speed using sliders.
+
+## Files
+
+- `index.html` – Main webpage
+- `main.js` – Code for 3D planets and animation
+- `README.md` – This file with instructions
